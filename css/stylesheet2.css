@@ -1,0 +1,165 @@
+body {
+  font-family:'Franklin Gothic Medium';
+  font-size: 110%;
+  color: white;
+  margin: 2rem;
+  padding: 2rem;
+  width: 60%;  
+  position: absolute;
+  left: 20%;
+  
+}
+
+/* .box {
+  margin: 0;
+  padding: 0.6rem;
+  border-style: none;
+  border-width: 2px;
+  border-color: #474642;
+  background-color: #474642cc;
+} */
+
+#sidebar{
+  padding: 1.5rem;  
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 6rem;
+  background-color:rgba(0, 0, 0, 0.548)
+}
+footer {
+  text-align: center;
+  background-color: #474642f6;
+  border-end-start-radius: 10px;
+  border-end-end-radius: 10px;
+  padding: 2rem;
+  /* padding-bottom: 2rem; */
+}
+
+.borderbevel {
+    max-width: 60%;
+    border-radius: 30%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(46, 46, 46);
+}
+
+#h1 {
+  padding-top: 3rem;
+}
+
+h1 { 
+    color: rgb(255, 218, 151);
+}
+
+h2 { 
+  color: rgb(255, 218, 151);
+  margin: 0;
+}
+
+p {
+  font-family:'Franklin Gothic light';
+  padding-bottom: 2rem;
+}
+
+.backgroundcover {
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.content {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.contentbox {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  /* margin-top: 1rem;
+  margin-bottom: 1rem; */
+}
+
+.list {
+  
+  list-style: none;
+  padding: 0;
+}
+
+a:link {
+  color: rgb(169, 231, 255);
+  text-decoration: none;
+  
+}
+
+a:visited {
+  color: rgb(180, 115, 255);
+}
+
+a:hover{
+  /* overflow: visible; */
+  /* transform: scale(1.1); */
+  /* transition: transform 0.3s; */
+  /* font-size: 110%; */
+  /* font-size-adjust: 20px; */
+  color: rgb(199, 149, 255);
+  transition: all .3s ease-out;
+}
+
+#page {
+    display: flex;
+    flex-direction: column;
+    background-color: #474642ab;
+    border-radius: 10px;
+    box-shadow: 6px 6px 3px rgba(37, 37, 37, 0.205);
+    
+}
+
+
+#box2 {
+    margin: 1rem;
+    margin-left: 0;
+    align-self: center;
+}
+
+#box1 {
+    display: flex;
+    margin: 0;
+    padding: 1rem;
+    padding-left: 0;
+    text-align: center;
+}
+
+.icon {
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
+}
+
+hr {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#return-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(73, 122, 255, .8);
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-decoration: none;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  display: none;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
