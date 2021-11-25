@@ -1,16 +1,17 @@
 body {
   font-family:'Franklin Gothic Medium';
-  font-size: 130%;
+  font-size: 1.3rem;
   color: white;
   margin: 2rem;
   padding: 2rem;
   width: 70%;  
   position: absolute;
-  left: 20%;
+  left: 15%;
+  
 }
 
 #sidebar{
-  padding: 1.5rem;  
+  padding: 1.5rem;
   position: fixed;
   top: 0;
   left: 0;
@@ -35,7 +36,7 @@ footer {
 }
 
 #h1 {
-  padding-top: 3rem;
+  padding-top: 4rem;
 }
 
 h1 { 
