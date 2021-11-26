@@ -1,23 +1,22 @@
 body {
-  font-family:'Franklin Gothic Medium';
+  font-family: "Franklin Gothic Medium";
   font-size: 1.3rem;
   color: white;
   margin: 2rem;
   padding: 2rem;
-  width: 70%;  
+  width: 70%;
   position: absolute;
   left: 15%;
-  
 }
 
-#sidebar{
+#sidebar {
   padding: 1.5rem;
   position: fixed;
   top: 0;
   left: 0;
   height: 100%;
   width: 7rem;
-  background-color:rgba(0, 0, 0, 0.548)
+  background-color: rgba(0, 0, 0, 0.548);
 }
 footer {
   text-align: center;
@@ -28,28 +27,28 @@ footer {
 }
 
 .borderbevel {
-    max-width: 60%;
-    border-radius: 30%;
-    border-style: solid;
-    border-width: 3px;
-    border-color: rgb(46, 46, 46);
+  max-width: 60%;
+  border-radius: 30%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(46, 46, 46);
 }
 
 #h1 {
   padding-top: 4rem;
 }
 
-h1 { 
-    color: rgb(255, 218, 151);
+h1 {
+  color: rgb(255, 218, 151);
 }
 
-h2 { 
+h2 {
   color: rgb(255, 218, 151);
   margin: 0;
 }
 
 p {
-  font-family:'Franklin Gothic light';
+  font-family: "Franklin Gothic light";
   padding-bottom: 2rem;
 }
 
@@ -71,8 +70,7 @@ p {
   padding-bottom: 1rem;
 }
 
-.list {
-  
+.menulist {
   list-style: none;
   padding: 0;
 }
@@ -80,40 +78,46 @@ p {
 a:link {
   color: rgb(169, 231, 255);
   text-decoration: none;
-  
 }
 
 a:visited {
-  color: rgb(180, 115, 255);
+  color: rgb(169, 231, 255);
 }
 
-a:hover{
+a:hover {
   color: rgb(199, 149, 255);
-  transition: all .3s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 #page {
-    display: flex;
-    flex-direction: column;
-    background-color: #474642ab;
-    border-radius: 10px;
-    box-shadow: 6px 6px 3px rgba(37, 37, 37, 0.205);
-    
+  display: flex;
+  flex-direction: column;
+  background-color: #474642ab;
+  border-radius: 10px;
+  box-shadow: 6px 6px 3px rgba(37, 37, 37, 0.205);
 }
 
-
-#box2 {
-    margin: 1rem;
-    margin-left: 0;
-    align-self: center;
+#profilebox {
+  margin: 1rem;
+  margin-left: 0;
+  align-self: center;
 }
 
-#box1 {
-    display: flex;
-    margin: 0;
-    padding: 1rem;
-    padding-left: 0;
-    text-align: center;
+#flex-row {
+  display: flex;
+  margin: 0;
+  padding: 1rem;
+  padding-left: 0;
+  text-align: center;
+}
+
+.imgtitle {
+  display: flex;
+}
+
+.h2boxheading {
+  padding-top: 0.6rem;
+  padding-left: 1rem;
 }
 
 .icon {
@@ -127,3 +131,24 @@ hr {
   margin-left: auto;
 }
 
+.button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  border: 2px solid black;
+}
+
+.button1:hover {
+  color: white;
+}
