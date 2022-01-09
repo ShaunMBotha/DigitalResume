@@ -1,0 +1,294 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Franklin Gothic Medium";
+  font-size: 1.1rem;
+  color: white;
+  margin: 2rem;
+  padding: 2rem;
+  width: 70%;
+  position: absolute;
+  left: 15%;
+}
+
+#sidebar {
+  padding: 1.5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 6rem;
+  background-color: rgba(0, 0, 0, 0.548);
+}
+
+.menu{
+  padding-bottom: 1rem;
+}
+.menulist {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding-left: 0;
+}
+
+footer {
+  text-align: center;
+  background-color: #474642f6;
+  border-end-start-radius: 10px;
+  border-end-end-radius: 10px;
+  padding: 2rem;
+}
+
+.borderbevel {
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(46, 46, 46);
+}
+
+#h1 {
+  flex: center;
+  padding-top: 4rem;
+}
+
+h1 {
+  color: rgb(255, 218, 151);
+}
+
+h2 {
+  color: rgb(255, 218, 151);
+  margin: 0;
+}
+
+.h2padding {
+  padding: 1rem;
+  padding-left: 0;
+}
+
+p {
+  font-family: "Franklin Gothic light";
+  padding-bottom: 2rem;
+}
+
+.p2 {
+  padding-bottom: 1rem;
+}
+
+.backgroundcover {
+  background-color: rgb(255, 221, 189);
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.content {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.contentbox {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.listitem {
+  padding-bottom: 0.1rem;
+}
+
+a:link {
+  color: rgb(169, 231, 255);
+  text-decoration: none;
+}
+
+:target:before {
+  content: "";
+  display: block;
+  height: 100px;
+  margin: -100px 0 0;
+}
+
+a:visited {
+  color: rgb(169, 231, 255);
+}
+
+a:hover {
+  color: rgb(199, 149, 255);
+  transition: all 0.3s ease-out;
+}
+
+#page {
+  display: flex;
+  flex-direction: column;
+  background-color: #474642ab;
+  border-radius: 10px;
+  box-shadow: 6px 6px 3px rgba(37, 37, 37, 0.205);
+}
+
+#profilebox {
+  margin: 1rem;
+  margin-left: 0;
+  align-self: center;
+}
+
+#flex-row {
+  display: flex;
+  margin: 0;
+  padding: 1rem;
+  padding-left: 0;
+  text-align: center;
+}
+
+.imgtitle {
+  display: flex;
+}
+
+.h2boxheading {
+  padding-top: 0.8rem;
+  padding-left: 1rem;
+}
+
+.h4boxheading {
+  padding-top: 0;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.h4heading {
+  margin: 0;
+}
+
+.icon {
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
+}
+
+hr {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row2 {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0rem;
+  padding-left: 0;
+}
+
+.row3 {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0rem;
+  padding-left: 0;
+}
+
+.column2 {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  padding-left: 3rem;
+}
+
+.column1 {
+  flex: 2;
+  padding-left: 0rem;
+}
+
+@media screen and (max-width:1000px) {
+  .column2{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 1rem;
+  padding-left: 0rem;
+  }
+
+  .row2{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0rem;
+  padding-left: 0;
+  }
+}
+
+
+@media screen and (max-width:650px) {
+  body {
+    font-family: "Franklin Gothic Medium";
+    font-size: 1.1rem;
+    color: white;
+    margin: auto;
+    padding: 0rem;
+    margin-top: 7rem;
+    width: 95%;
+    position: absolute;
+    left: 2.5%;
+  }
+
+  #sidebar {
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 100%;
+    background-color: rgb(53, 53, 53);
+  }
+  .menu{
+    display: none;
+  }
+  .menulist {
+    font-size: 0.8rem;
+    margin: 0;
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+  }
+
+  .listitem {
+    padding: 0.5rem;
+    padding-bottom: 0rem;
+  }
+
+  #h1{
+    padding-top: 1rem;
+  }
+
+  .content{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .iconsmall{
+    width: 40px;
+    height: 40px;
+  }
+
+  .h2boxheading{
+    padding-top: 0.3rem;
+  }
+
+  .icon{
+    width: 40px;
+    height: 40px;
+  }
+
+  :target:before {
+    content: "";
+    display: block;
+    height: 100px;
+    margin: -100px 0 0;
+  }
+}
