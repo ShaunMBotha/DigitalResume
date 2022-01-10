@@ -10,20 +10,22 @@
     <link rel="stylesheet" type="text/css" href="css/stylesheet11.css" />
 </head>
 
-<div class="jumbotron">
-    <h1 class="display-4">Welcome to my Site</h1>
-    <p class="lead">This site is all about me! You can find my CV as well as examples of all the projects I'm currently
-        working on</p>
-    <hr class="my-4">
-    <p>Jump right in and have a look at what I have on offer.</p>
-    <a class="btn btn-primary btn-lg" href="#" role="button">Get Started</a>
-</div>
 
 <body class="backgroundcover">
 
+    <div class="jumbotron vertical-center bg-transparent">
+        <div class="amount1">
+            <video class="tpoverlay" src="Video/200705_LoopBlueHUDSphere.mp4" id="bgvid" preload muted autoplay
+                loop></video>
+            <h1 class="display-4">Welcome to my Site</h1>
+            <p class="lead">This site is all about me! You can find my CV as well as examples of all the projects I'm
+                currently working on</p>
+            <p>Jump right in and have a look at what I have on offer.</p>
+            <a class="btn btn-primary btn-lg" href="#top" role="button">Get Started</a>
+        </div>
+    </div>
 
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,42 +37,28 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Dropdown
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="dropdown-menu navbar-dark bg-dark" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#Interests">Interests</a>
+                        <a class="dropdown-item" href="#Information">Information</a>
+                        <a class="dropdown-item" href="#Experience">Experience</a>
+                        <a class="dropdown-item" href="#Skills">Skills</a>
+                        <a class="dropdown-item" href="#Education">Education!</a>
                     </div>
-                </li>
-
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    <a class="nav-link" href="#Contact">Contact</a>
+                </li>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <nav id="sidebar">
-        <ul class="menulist">
-            <h2 class="menu">MENU</h2>
-            <li class="listitem"><a href="#Interests">Interests</a></li>
-            <li class="listitem"><a href="#Information">Information</a></li>
-            <li class="listitem"><a href="#Experience">Experience</a></li>
-            <li class="listitem"><a href="#Skills">Skills</a></li>
-            <li class="listitem"><a href="#Education">Education</a></li>
-        </ul>
-    </nav>
-
     <div id="page">
-        <header class="content">
+        <header class="content" id="top">
             <div id="flex-row">
                 <div id="profilebox">
                     <picture>
@@ -93,7 +81,7 @@
                 in Autodesk Maya , Nuke, Adobe Photoshop, After Effects, and Film
                 Editing.
             </p>
-            <hr />
+            <hr class="my-4">
         </header>
 
         <main class="content">
@@ -183,7 +171,8 @@
                     </div>
                 </div>
             </section>
-            <hr />
+
+            <hr class="my-4">
 
             <section class="contentbox">
                 <div class="imgtitle mb-3">
@@ -219,7 +208,7 @@
                     business lunches
                 </p>
             </section>
-            <hr />
+            <hr class="my-4"/>
             <!-- Skills -->
             <section class="contentbox">
                 <div class="row">
@@ -334,7 +323,7 @@
                     </div>
                 </div>
             </section>
-            <hr />
+            <hr class="my-4"/>
             <!-- Education -->
             <section class="contentbox">
                 <div class="imgtitle">
@@ -348,7 +337,7 @@
                     Intro to Web at
                     <a href="https://www.codespace.co.za" target="blank">CodeSpace Academy</a>
                 </h3>
-                <p>intorduction into HTML, CSS and JavaScript</p>
+                <p>Intorduction into HTML, CSS and JavaScript</p>
                 <h3>
                     Digital Animation Diploma at
                     <a href="https://theanimationschool.co.za" target="blank">The Animation School</a>
@@ -370,7 +359,7 @@
             </section>
         </main>
         <footer>
-            <h2 class="p2">Contact Details</h2>
+            <h2 class="p2" id="Contact">Contact Details</h2>
 
             <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvnrmKvNmBKDnstQxqCShgFNVWmpkFhplvChSgBKRtxRDHkqXdcDwbjSXMWBGNSmHjZXmg"
                 target="blank"><img src="images/gmailIcon.png" alt="GmailIcon" width="50" class="icon" /></a>

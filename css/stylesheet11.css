@@ -6,11 +6,6 @@ body {
   font-family: "Franklin Gothic Medium";
   font-size: 1rem;
   color: white;
-  margin: 2rem;
-  padding: 2rem;
-  width: 80%;
-  position: absolute;
-  left: 14%;
 }
 
 #sidebar {
@@ -79,7 +74,7 @@ p {
 
 .backgroundcover {
   background-color: rgb(255, 221, 189);
-  background-image: url(../images/background.jpg);
+  background-image: url(../images/BackgroundUpdate.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -108,8 +103,8 @@ a:link {
 :target:before {
   content: "";
   display: block;
-  height: 100px;
-  margin: -100px 0 0;
+  height: 200px;
+  margin: -200px 0 0;
 }
 
 a:visited {
@@ -127,6 +122,11 @@ a:hover {
   background-color: #474642ab;
   border-radius: 10px;
   box-shadow: 6px 6px 3px rgba(37, 37, 37, 0.205);
+  margin: 2rem;
+  margin-top: 0;
+  padding: 2rem;
+  position: absolute;
+  z-index: -102;
 }
 
 #profilebox {
@@ -173,6 +173,7 @@ hr {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
+  border: solid 1px white;
 }
 .row2 {
   display: flex;
@@ -196,6 +197,38 @@ hr {
   padding-left: 0rem;
 }
 
+.jumbotron {
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.vertical-center{
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.amount1{
+  flex: 1;
+}
+
+#bgvid {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  z-index: -100;
+  overflow-x: hidden;
+}
+
 @media screen and (max-width:1400px) {
   .column2{
   display: flex;
@@ -216,18 +249,19 @@ hr {
   }
 }
 
-
 @media screen and (max-width:650px) {
   body {
     font-family: "Franklin Gothic Medium";
     font-size: 1.1rem;
     color: white;
-    margin: auto;
-    padding: 0rem;
-    margin-top: 7rem;
-    width: 95%;
+  }
+
+  #page {
+    padding: 0;
+    margin: 0;
+    width: 96%;
     position: absolute;
-    left: 2.5%;
+    left: 2%;
   }
 
   #sidebar {
