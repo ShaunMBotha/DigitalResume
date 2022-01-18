@@ -116,6 +116,7 @@ a:visited {
 a:hover {
   color: rgb(199, 149, 255);
   transition: all 0.3s ease-out;
+  
 }
 
 #page {
@@ -168,6 +169,12 @@ a:hover {
 .icon {
   padding-left: 0.1rem;
   padding-right: 0.1rem;
+  transform: scale(1);
+  
+}
+
+.icon:hover {
+  animation: pulse 2s infinite;
 }
 
 hr {
@@ -233,6 +240,19 @@ hr {
   transform: translateX(-50%) translateY(-50%);
   z-index: -100;
   
+}
+
+@keyframes pulse {
+  0% {
+      transform: scale(1);      
+  }
+  
+  70% {
+      transform: scale(1.1);      
+  }
+  100% {
+      transform: scale(1);      
+  }
 }
 
 @media screen and (max-width:1400px) {
